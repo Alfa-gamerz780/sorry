@@ -1,0 +1,98 @@
+*{
+        margin: 0%;
+        padding: 0%;
+}
+
+body{
+        
+        margin: 0%;
+        padding: 0%;
+        background-color: #d63384;
+}
+
+.div1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+}
+
+h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+}
+
+h2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+}
+
+.name-hb{
+        background-color: aliceblue;
+        padding: 35px;
+        animation: typing 2s steps(300,end)
+        alternate infinite forwards, 
+        blink-caret 0.5s step-end infinite
+}
+
+@keyframes typing{
+        from{width: 0;}
+        to{width: 100%;}
+}
+
+@keyframes blink-caret{
+        from, to{border-color: transparent;}
+        50%{border-color: rgb(255, 166, 0);}
+        100%{border-color: red;}
+}
+
+.div2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1vh;
+}
+
+input{
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+}
+
+input:hover{
+        background-color: blueviolet;
+}
+
+button{
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: #d63384;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-sizing: border-box;
+        outline: none;
+        text-decoration: none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Birthday</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+        <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js></script>
+        <link rel="stylesheet" href="cake.html">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #2f26cb;">
+        <audio id="bg-music" src="background.mp3" loop hidden></audio>
+        <button id="play-music-btn" class="btn btn-primary" style="position:fixed;top:20px;right:20px;z-index:1000;">Play Music</button>
+        <div class="container-fluid div1">
+                <div class="name-hb">
+                        <h1>SORRY </h1>
+                        <h1>FORGIVE</h1>
+                        <h1> ME!!!</h1>
+                </div>
+        </div>
+        <script>
+        document.getElementById('play-music-btn').addEventListener('click', function() {
+            var audio = document.getElementById('bg-music');
+            audio.play();
+            this.style.display = 'none';5
+        });
+        </script>
+</body>
+
+</html>
